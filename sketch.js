@@ -3,7 +3,6 @@ function setup() {
 	createCanvas(640, 360);
 }
 
-
 function draw() {
 
 if (mouseIsPressed) {
@@ -43,12 +42,16 @@ ellipse(mouseX - 50, mouseY - 40, 10, 10)
 ellipse(mouseX + 25, mouseY - 40, 10, 10)
 ellipse(mouseX + 50, mouseY - 40, 10, 10)
 ellipse(mouseX, mouseY - 20, 30, 5)
-//draw the light on the ground
-
-ellipse(mouseX, mouseY, 80, 20)
+  //draw the spotlight
+// { if mouseY > 260
+ellipse(mouseX, 300, 80, 20)
+// // } else {
+// fill(45, 82, 54);
+// 	ellipse()}
 
 
  } else {
+
   //draw the background
 background(0, 0, 53);
 
