@@ -43,11 +43,11 @@ ellipse(mouseX + 25, mouseY - 40, 10, 10)
 ellipse(mouseX + 50, mouseY - 40, 10, 10)
 ellipse(mouseX, mouseY - 20, 30, 5)
   //draw the spotlight
-// { if mouseY > 260
+// { if mouseY > 260;
 ellipse(mouseX, 300, 80, 20)
-// // } else {
-// fill(45, 82, 54);
-// 	ellipse()}
+// } else {
+// fill(0, 0, 53)
+// ellipse(mouseX, 300, 80, 20)}
 
 
  } else {
